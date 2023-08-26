@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d6d3d3;
+}
+
+
+.banner{
+    text-align: center;
+    background-color: #212121;
+    color: #f5f5f5;
+    padding: 20px;
+}
+
+.banner h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 1% 0 0 3%;
+    text-align: center;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid #000;
+    padding: 1.5%;
+    width: 350px;
+    margin: 5% 5% 5% 5%;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    background-color: #d8e3ec;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+@media (min-width: 900px) {
+
+    .card {
+        border: 2px solid #000;
+        padding: 1.5%;
+        width: 27%;
+        margin: 1%;
+        border-radius: 10px;
+        transition: 0.2s ease-in-out;
+        background-color: #d8e3ec;
+    }
+    
+    .card h3 {
+        text-align: center;
+    }
+    
+    .card img {
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .card:hover {
+        transform: scale(1.02);
+    }
+
+    .rodape {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px 0 5px 0;
+        background-color: #212121;
+        color: #f5f5f5;
+    }
+    .rodape h3 {
+        margin-bottom: 1%;
+    }
+    ul, a {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        font-size: 18px;
+        color: #f5f5f5;
+    }
+}
+
+.rodape {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+.rodape h3 {
+    margin-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+i {
+    margin: 3px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10%;
+    gap: 10px;
+}
